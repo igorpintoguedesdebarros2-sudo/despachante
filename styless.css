@@ -1,0 +1,90 @@
+/* =========================
+   CONFIGURAÇÃO GERAL
+========================= */
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+
+    background: white;
+}
+
+
+/* =========================
+   IMAGENS
+========================= */
+
+body > img {
+    width: 100%;
+    height: auto;
+
+    display: block;
+}
+
+
+/* =========================
+   CONTATOS
+========================= */
+
+.contatos {
+    width: 100%;
+    min-height: 500px;
+
+    box-sizing: border-box;
+
+    padding: 60px 8%;
+
+    background: white;
+}
+
+
+/* TÍTULO */
+
+.contatos h2 {
+    margin: 0 0 40px 0;
+
+    font-size: 60px;
+    font-weight: 400;
+
+    color: #000;
+}
+
+
+/* ÁREA DOS CONTATOS */
+
+.contato {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+
+/* CADA LINHA */
+
+.contato p {
+    margin: 0;
+
+    font-size: 30px;
+    line-height: 1.5;
+
+    color: #000;
+}
+
+
+/* LINKS */
+
+.contato a {
+    color: #000;
+
+    text-decoration: none;
+}
+
+
+/* EFEITO AO PASSAR O MOUSE */
+
+.contato a:hover {
+    text-decoration: underline;
+}
