@@ -1,3 +1,8 @@
+.imagem4 {
+    position: relative;
+    top: -38px;
+}
+
 /* =========================
    CONFIGURAÇÃO GERAL
 ========================= */
@@ -37,10 +42,16 @@ body > img {
     padding: 60px 8%;
 
     background: white;
+
+    /* sobe aproximadamente 3 cm */
+    position: relative;
+    top: -114px;
 }
 
 
-/* TÍTULO */
+/* =========================
+   TÍTULO
+========================= */
 
 .contatos h2 {
     margin: 0 0 40px 0;
@@ -52,7 +63,9 @@ body > img {
 }
 
 
-/* ÁREA DOS CONTATOS */
+/* =========================
+   ÁREA DOS CONTATOS
+========================= */
 
 .contato {
     display: flex;
@@ -62,7 +75,9 @@ body > img {
 }
 
 
-/* CADA LINHA */
+/* =========================
+   CADA LINHA
+========================= */
 
 .contato p {
     margin: 0;
@@ -74,7 +89,9 @@ body > img {
 }
 
 
-/* LINKS */
+/* =========================
+   LINKS
+========================= */
 
 .contato a {
     color: #000;
@@ -83,7 +100,9 @@ body > img {
 }
 
 
-/* EFEITO AO PASSAR O MOUSE */
+/* =========================
+   EFEITO AO PASSAR O MOUSE
+========================= */
 
 .contato a:hover {
     text-decoration: underline;
